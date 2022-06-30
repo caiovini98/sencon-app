@@ -1,5 +1,5 @@
-# Horizon Spotify  
-Olá, este é um projeto chamado Horizon Spotify, na qual há a consumação da API do Spotify (aplictivo de música), e mostrando os albúns buscado pelo usuário. Ao clicar em qualquer albúm, você é redirecionado a uma outra página, onde consegue ver mais informações sobre o albúm e suas musicas e, até mesmo, ouvir uma demo.
+# Sencon
+Olá, este é um projeto em resposta ao desafio técnico proposto pela Sencon, na qual há a consumação da API do JSONPlaceholder, e mostrando usuários fakes. Ao clicar em qualquer usuário, um modal é aberto para você ver mais detalhes sobre este usuário.
 ### Pré-requisitos
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [git](https://git-scm.com) e [node.js](https://nodejs.org/en/).
@@ -40,5 +40,5 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React](https://pt-br.reactjs.org/)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Node.js](https://nodejs.org/en/)
-- [React Icons](https://react-icons.github.io/react-icons/)
+- [TypeScript](https://www.typescriptlang.org/)
 - [HTML e CSS](https://www.w3schools.com/)

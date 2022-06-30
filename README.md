@@ -1,46 +1,44 @@
-# Getting Started with Create React App
+# Sencon
+Olá, este é um projeto em resposta ao desafio técnico proposto pela Sencon, na qual há a consumação da API do JSONPlaceholder, e mostrando usuários fakes. Ao clicar em qualquer usuário, um modal é aberto para você ver mais detalhes sobre este usuário.
+### Pré-requisitos
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[git](https://git-scm.com) e [node.js](https://nodejs.org/en/).
+Também, vai precisar de um editor para trabalhar com o código, recomendo o [VS Code](https://code.visualstudio.com/).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Rodando o projeto
 
-## Available Scripts
+```bash
+# Clone este repositório (ou download )
+$ git clone <link>
 
-In the project directory, you can run:
+# Acesse a pasta do projeto no terminal/cmd
+$ cd horizon-spotify
 
-### `npm start`
+# Abra a pasta no editor de codigo (VS Code ou outro de sua preferência).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Instale as dependências
+$ npm install
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Após a instalação, execute o comando para rodar a aplicação
+$ npm start
 
-### `npm test`
+# O servidor inciará na porta:3000. Se não abrir automaticamente, acesse 
+$ http://localhost:3000
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Caso o comando npm start não funcionar, devido a um erro do "react-script", verifique se a dependência do react-script está disponível ou não no package.json
+Caso não esteja, adicione manualmente no projeto por meio de:
 
-### `npm run build`
+```bash
+$ npm install react-scripts --save
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🛠 Tecnologias utilizadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+As seguintes ferramentas foram usadas na construção do projeto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [React](https://pt-br.reactjs.org/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Node.js](https://nodejs.org/en/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [HTML e CSS](https://www.w3schools.com/)
